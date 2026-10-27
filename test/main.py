@@ -3,7 +3,9 @@ import pygame
 
 pygame.init()
 
-sound = pygame.mixer.Sound("Assets/Sounds/master_of_dreams_wooshes_sub_7_994.mp3")
+sound = pygame.mixer.Sound("Assets/Sounds/yoshi's-island---athletic-theme-made-with-Voicemod.mp3")
+
+sfx = pygame.mixer.Sound("Assets/Sounds/master_of_dreams_wooshes_sub_7_994.mp3")
 
 sound.play(-1)
 
@@ -60,6 +62,8 @@ while running:
                 right = True
             if event.key == pygame.K_a:
                 left = True
+            if event.key == pygame.K_f:
+                sfx.play()
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_d:
                 right = False
