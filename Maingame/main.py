@@ -10,7 +10,6 @@ loadedassets = 0
 score = 0
 length = 3
 
-
 def fpsmonitor():
     if int(clock.get_fps()) > 55:
         fps_text = small_font.render(f"Stable", True, (0, 184, 6))
@@ -42,7 +41,7 @@ def randomdeathmsg():
     elif rdm == 10:
         return "Slithered right past the fruit salad"
     elif rdm == 11:
-        return "PUMPKIN"
+        return "Christmas is cancelled, you died"
     else:
         return "How?????????"
     
