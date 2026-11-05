@@ -10,7 +10,7 @@ A Snake game made with Python and pygame, with animated snake heads, a speed sli
 ## Run it
 ```
 pip install pygame gif_pygame screeninfo
-python Maingame/yourfile.py
+python Maingame/main.py
 ```
 Run it from the repo root so the `Assets` folder is found.
 
